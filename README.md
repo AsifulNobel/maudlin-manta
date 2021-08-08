@@ -1,24 +1,40 @@
-# README
+# MAUDLIN MANTA
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails Tutorial Blog Project. I created this while following the [official getting started guide](https://guides.rubyonrails.org/getting_started.html).
 
-Things you may want to cover:
+## Ruby version
 
-* Ruby version
+I used 3.0.1. This information can also be found in .ruby-version file.
 
-* System dependencies
+## Dependencies
 
-* Configuration
+1. Ruby
+2. Rails
+3. Yarn
+4. SQLite3
 
-* Database creation
+## How to run
 
-* Database initialization
+Clone the repository. Change working directory to cloned directory. Then run the following commands one by one -
 
-* How to run the test suite
+```bash
+yarn install
 
-* Services (job queues, cache servers, search engines, etc.)
+bins/rails db:migrate
 
-* Deployment instructions
+bins/rails server
+```
 
-* ...
+## Screenshots
+
+Home page -
+
+![home](./screenshots/home.jpg)
+
+An article's detailed view -
+
+![article_view](./screenshots/article_view.jpg)
+
+An article's editing view -
+
+![article_edit](./screenshots/article_edit.jpg)
